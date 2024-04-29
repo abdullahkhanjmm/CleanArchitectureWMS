@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WMS.Application", "WMS.Application\WMS.Application.csproj", "{FB4AECCB-E1BF-47C8-9416-5A3D4DB5A983}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WMS.Infrastructure", "WMS.Infrastructure\WMS.Infrastructure.csproj", "{82AF429E-1642-4232-A55E-D587B7E78949}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WMS.Domain", "WMS.Domain\WMS.Domain.csproj", "{118895FF-95BE-4A36-B9F6-74533F2C8C54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WMS.API", "WMS.API\WMS.API.csproj", "{42CBC368-DB0C-4D19-BF1B-06B1C3BEC766}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Request", "Request", "{B7C97103-3D4F-468E-AFD6-F812A3EF8D40}"
+	ProjectSection(SolutionItems) = preProject
+		foo.http = foo.http
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMS.Contracts", "WMS.Contracts\WMS.Contracts.csproj", "{3C2AC5D1-259E-4A7C-9DFD-CE41B04BCEB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WareHouse", "WareHouse", "{D4EBAAB1-EB60-4F28-9EB9-5D7EBC5E175A}"
+	ProjectSection(SolutionItems) = preProject
+		CreateWarehouse.http = CreateWarehouse.http
+		GetWarehouse.http = GetWarehouse.http
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB4AECCB-E1BF-47C8-9416-5A3D4DB5A983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4AECCB-E1BF-47C8-9416-5A3D4DB5A983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4AECCB-E1BF-47C8-9416-5A3D4DB5A983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4AECCB-E1BF-47C8-9416-5A3D4DB5A983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82AF429E-1642-4232-A55E-D587B7E78949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82AF429E-1642-4232-A55E-D587B7E78949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82AF429E-1642-4232-A55E-D587B7E78949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82AF429E-1642-4232-A55E-D587B7E78949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118895FF-95BE-4A36-B9F6-74533F2C8C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118895FF-95BE-4A36-B9F6-74533F2C8C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118895FF-95BE-4A36-B9F6-74533F2C8C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118895FF-95BE-4A36-B9F6-74533F2C8C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42CBC368-DB0C-4D19-BF1B-06B1C3BEC766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42CBC368-DB0C-4D19-BF1B-06B1C3BEC766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42CBC368-DB0C-4D19-BF1B-06B1C3BEC766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42CBC368-DB0C-4D19-BF1B-06B1C3BEC766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2AC5D1-259E-4A7C-9DFD-CE41B04BCEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2AC5D1-259E-4A7C-9DFD-CE41B04BCEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2AC5D1-259E-4A7C-9DFD-CE41B04BCEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2AC5D1-259E-4A7C-9DFD-CE41B04BCEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4EBAAB1-EB60-4F28-9EB9-5D7EBC5E175A} = {B7C97103-3D4F-468E-AFD6-F812A3EF8D40}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F276F73-A992-4134-BC20-FF999D8EA98C}
+	EndGlobalSection
+EndGlobal

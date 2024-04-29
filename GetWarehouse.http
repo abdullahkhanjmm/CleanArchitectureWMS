@@ -1,0 +1,4 @@
+@WMS.API_HostAddress=https://localhost:7248
+@WarehouseId=0b73f30c-c19a-4a81-a9b7-8413963512e6
+
+GET {{WMS.API_HostAddress}}/Warehouses/{{WarehouseId}}
